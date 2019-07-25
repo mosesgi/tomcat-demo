@@ -13,7 +13,7 @@ import java.io.File;
 public class EmbeddedTomcatServer {
     public static void main(String[] args) throws Exception {
         //classes目录 绝对路径
-        // idea_workapce
+        // idea_workspace
         String classesPath = System.getProperty("user.dir") + File.separator + "target" + File.separator + "classes";
         System.out.println(classesPath);
 
